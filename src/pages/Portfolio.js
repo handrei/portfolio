@@ -9,7 +9,25 @@ export default class Portfolio extends Component {
       >
         <div className='w-100'>
           <h2 className='mb-5'>Portfolio</h2>
-          <p> coming soon </p>
+          <iframe
+            title='devconnector'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/cna1pUCoYGY'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
+          <hr />
+          <iframe
+            title='shopping app'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/5GmKOphrhBk'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
         </div>
       </section>
     );
