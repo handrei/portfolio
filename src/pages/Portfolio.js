@@ -28,6 +28,16 @@ export default class Portfolio extends Component {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowfullscreen
           />
+          <hr />
+          <iframe
+            title='tracalorie'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/1wGyg2CKS5E'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
         </div>
       </section>
     );
