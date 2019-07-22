@@ -18,6 +18,10 @@ export default class Portfolio extends Component {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowfullscreen
           />
+          <br />
+          <span>
+            made with: <strong>react, redux, nodejs, express, mongodb </strong>
+          </span>
           <hr />
           <iframe
             title='shopping app'
@@ -28,6 +32,10 @@ export default class Portfolio extends Component {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowfullscreen
           />
+          <br />
+          <span>
+            made with: <strong> react, nodejs, express, mongodb </strong>
+          </span>
           <hr />
           <iframe
             title='tracalorie'
@@ -38,6 +46,25 @@ export default class Portfolio extends Component {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowfullscreen
           />
+          <br />
+          <span>
+            made with: <strong>vanilla js</strong>
+          </span>
+          <hr />
+          <iframe
+            title='social-ape'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/jNk72jFiB8g'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
+          <br />
+          <span>
+            made with:
+            <strong> react, redux, firebase, express, material-ui</strong>
+          </span>
         </div>
       </section>
     );
