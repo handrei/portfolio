@@ -32,27 +32,47 @@ export default class Navbar extends Component {
         </button>
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav'>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='.navbar-collapse.show'
+            >
               <Link className='nav-link js-scroll-trigger' to='/'>
                 About
               </Link>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='.navbar-collapse.show'
+            >
               <Link className='nav-link js-scroll-trigger' to='/experience'>
                 Experience
               </Link>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='.navbar-collapse.show'
+            >
               <Link className='nav-link js-scroll-trigger' to='/education'>
                 Education
               </Link>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='.navbar-collapse.show'
+            >
               <Link className='nav-link js-scroll-trigger' to='/skills'>
                 Skills
               </Link>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='.navbar-collapse.show'
+            >
               <Link className='nav-link js-scroll-trigger' to='/portfolio'>
                 Portfolio
               </Link>
